@@ -16,6 +16,6 @@ def test_2():
     assert name in title
 
 def test_3():
-    name="Jenkins"
+    name="Jenkins is CI server"
     title="Jenkins is CI server"
     assert name is title , "Title does not match"
