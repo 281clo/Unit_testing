@@ -3,7 +3,8 @@ test1
 test_1
 test_1
 1_test
-pytest will run all files from current dir/ subdirec test_*.py or *_test.py'''
+pytest will run all files from current dir/ subdirec test_*.py or *_test.py
+'''
 
 def test_1():
     x=10
