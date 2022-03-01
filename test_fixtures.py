@@ -14,6 +14,9 @@
 """
 import pytest
 
+@pytest.fixture
+def setup():
+    print("Start Browser")
 
 def test_1():
     print("Start Browser")
